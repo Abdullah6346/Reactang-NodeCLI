@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A CLI tool that simplify React and Django Implementation.",
   "type": "module",
-  "main": "cli.js",
+  "main": "./src/index.js", 
   "bin": {
     "reactango": "./cli.js"
   },
@@ -35,6 +35,7 @@
   },
   "files": [
     "cli.js",
+    "src/**/*",
     "package.json",
     "README.md",
     "LICENSE"
