@@ -24,12 +24,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/reactango-cli.git"
+    "url": "https://github.com/Abdullah6346/Reactang-NodeCLI"
   },
   "bugs": {
-    "url": "https://github.com/your-username/reactango-cli/issues"
+    "url": "https://github.com/Abdullah6346/Reactang-NodeCLI/issues"
   },
-  "homepage": "https://github.com/your-username/reactango-cli#readme",
+  "homepage": "https://github.com/Abdullah6346/Reactang-NodeCLI#readme",
   "engines": {
     "node": ">=18.0.0"
   },
