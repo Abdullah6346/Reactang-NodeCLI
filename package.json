@@ -1,0 +1,50 @@
+{
+  "name": "reactango",
+  "version": "1.0.0",
+  "description": "A CLI tool that simplify React and Django Implementation.",
+  "type": "module",
+  "main": "cli.js",
+  "bin": {
+    "reactango": "./cli.js"
+  },
+  "scripts": {
+    "start": "node ./cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "react",
+    "django",
+    "tanstack-router",
+    "template",
+    "scaffolding",
+    "generator"
+  ],
+  "author": "Muhammad Abdullah <muhmmadabdullah6346@gmail.com> (https://gladdydev.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/reactango-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/reactango-cli/issues"
+  },
+  "homepage": "https://github.com/your-username/reactango-cli#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "cli.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.6.3",
+    "ora": "^8.2.0"
+  }
+}
