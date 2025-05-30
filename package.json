@@ -1,6 +1,6 @@
 {
   "name": "reactango",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A CLI tool that simplify React and Django Implementation.",
   "type": "module",
   "main": "./src/index.js", 
