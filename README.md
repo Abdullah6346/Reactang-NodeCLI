@@ -1,6 +1,7 @@
 # 🚀 React Tango Creator (`reactango`)
 
 <div align="center">
+<img src="https://raw.githubusercontent.com/Abdullah6346/ReactTangoTemplate/main/app/welcome/logo.svg" alt="Reactango Logo" width="200"/>
 
 ![React Tango Creator Logo](https://img.shields.io/badge/⚡-React%20Tango%20Creator-blue?style=for-the-badge&logo=react)
 
@@ -47,16 +48,19 @@ That's it! Your full-stack application is now ready!
 ## 🌟 Features
 
 ### 🏗️ **Instant Project Scaffolding**
+
 - Creates a complete full-stack project structure in seconds
 - No manual setup or configuration required
 - Ready-to-use development environment
 
 ### 🔄 **Clean Git History**
+
 - Automatically initializes a fresh Git repository
 - Removes template history for a clean start
 - Makes initial commit with all template files
 
 ### ⚙️ **Modern Tech Stack**
+
 - **React 18** with hooks and modern patterns
 - **TanStack Router** for type-safe routing
 - **Vite** for lightning-fast development
@@ -64,11 +68,13 @@ That's it! Your full-stack application is now ready!
 - **TypeScript** for type safety across the stack
 
 ### 🐳 **Containerized Development**
+
 - Docker Compose setup included
 - Consistent development environment
 - Easy deployment and scaling
 
 ### 🛠️ **Developer Experience**
+
 - Hot reloading for both frontend and backend
 - Pre-configured linting and formatting
 - Organized project structure
@@ -137,16 +143,16 @@ reactango --help
 
 ### Command Options
 
-| Option | Description | Default |
-|--------|-------------|---------|
-| `project_name` | Name of your new project | Required |
-| `--branch <branch>` | Specific branch of the template to clone | `main` |
-| `--init-git` | Force initialization of a new git repository | Interactive prompt |
-| `--no-init-git` | Force skipping git initialization | Interactive prompt |
-| `--install-all` | Automatically install all dependencies (backend & frontend) | Interactive prompt |
-| `--skip-all-install` | Skip all automatic dependency installations and prompts | Interactive prompt |
-| `--no-venv` | Don't use a Python virtual environment for backend dependencies | Uses venv by default |
-| `--help` | Show help message | - |
+| Option               | Description                                                     | Default              |
+| -------------------- | --------------------------------------------------------------- | -------------------- |
+| `project_name`       | Name of your new project                                        | Required             |
+| `--branch <branch>`  | Specific branch of the template to clone                        | `main`               |
+| `--init-git`         | Force initialization of a new git repository                    | Interactive prompt   |
+| `--no-init-git`      | Force skipping git initialization                               | Interactive prompt   |
+| `--install-all`      | Automatically install all dependencies (backend & frontend)     | Interactive prompt   |
+| `--skip-all-install` | Skip all automatic dependency installations and prompts         | Interactive prompt   |
+| `--no-venv`          | Don't use a Python virtual environment for backend dependencies | Uses venv by default |
+| `--help`             | Show help message                                               | -                    |
 
 ## 📚 What You Get
 
@@ -240,12 +246,14 @@ After running `reactango create`, your project will have:
 The `reactango` CLI provides comprehensive options for creating and configuring your projects:
 
 ### Basic Command
+
 ```bash
 # Create a new project with interactive prompts
 reactango create <project-name>
 ```
 
 ### Full Command Reference
+
 ```bash
 # Create with specific branch
 reactango create my-app --branch develop
@@ -270,16 +278,19 @@ reactango create my-app --branch main --install-all --init-git
 ### Interactive vs Automated Modes
 
 **Interactive Mode (Default):**
+
 - Prompts you for Git initialization preference
 - Asks about dependency installation options
 - Guides you through Python virtual environment setup
 
 **Automated Mode:**
+
 - Use `--install-all` to skip prompts and install everything
 - Use `--skip-all-install` to skip all installations
 - Combine with other flags for fully automated project creation
 
 ### Other Commands
+
 ```bash
 # Show version
 reactango --version
